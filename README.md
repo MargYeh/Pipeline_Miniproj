@@ -16,7 +16,7 @@ Included is TableSetup.sql which generates a table with the following schema whe
 
 ## Steps to run
 - Create a new database in mySQL and use TableSetup.sql to create a table with the above schema.
-- Connect to the database: Replace <user>, <password>, <database_name> with the appropriate information in get_db_connection() inside pipeline.py
+- Connect to the database: Replace '\<user\>', '\<password\>', '\<database_name\>' with the appropriate information in get_db_connection() inside pipeline.py
 - Run pipeline.py
 - The pipeline should load the data from third_party_sales_1.csv into the mySQL database and return the top three most popular events, displayed in the console.
   
